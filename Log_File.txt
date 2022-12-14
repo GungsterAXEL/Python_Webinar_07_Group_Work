@@ -1,3 +1,0 @@
-15.12.2022 00:09 - New_Entry - True;
-15.12.2022 00:20 - New_Entry_Saver - True;
-15.12.2022 00:21 - New_Entry_Saver - False;
