@@ -14,7 +14,7 @@ def xlsx_import():
 			temp = []
 			for cell in row:
 				temp.append(cell.value)
-			Add.new_entry_saver(*temp)
+			Add.new_entry_saver(temp)
 		Logger.log_logger('XLSX_Import', True)
 	except:
 		Logger.log_logger('XLSX_Import', False)
