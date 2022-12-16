@@ -3,7 +3,7 @@ import Add
 import Import
 import Export_xlsx
 import View
-import Finder
+import Print_Format
 
 number = Menu.menu_choice()
 
@@ -17,6 +17,6 @@ def choose(number):
     if number == 4:
         Export_xlsx.xlsx_export()
     if number == 5:
-        Finder.find_finder()
+        Print_Format.find_finder()
 
 choose()
