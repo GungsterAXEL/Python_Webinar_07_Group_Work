@@ -12,3 +12,5 @@ def print_format_columns():
             for j in range(len(wrds)):
                 wrds[j].replace('; ', ' ')
                 print(wrds[j])
+                
+                
