@@ -2,7 +2,7 @@
 import Export_xlsx
 
 def read_import_file():
-    # name = #######TODO имя резервной копии, вводимой пользователем
+    # name = Export_xlsx. #######TODO имя резервной копии, вводимой пользователем
     with open (f'GROUP_TASK/{name}.txt', 'r', encoding = 'utf-8') as file:
         file = list(map(str, file))
         print(file)
@@ -24,3 +24,20 @@ read_import_file()
     
 
 # format_file()
+#__________________________________________________________________________________
+
+import os
+
+os.chdir(os.path.dirname(__file__))
+
+def import_from_file():
+    with open("PhoneBook.txt", "r", encoding='utf-8') as phonebook:
+        phone = phonebook.readlines()
+        for i in range(len(phone)):
+            wrds = phone[i].replace(';', '').split(', ')
+            for j in range(len(wrds)):
+                wrds[j].replace('; ', ' ')
+                print(wrds[j])
+
+
+import_from_file()
