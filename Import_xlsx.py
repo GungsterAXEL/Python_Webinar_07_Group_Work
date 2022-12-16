@@ -1,7 +1,7 @@
 ﻿import os
 import Logger
 import openpyxl
-import New_Entry
+import Add
 
 os.chdir(os.path.dirname(__file__))
 
@@ -14,7 +14,7 @@ def xlsx_import():
 			temp = []
 			for cell in row:
 				temp.append(cell.value)
-			New_Entry.new_entry_saver(*temp)
+			Add.new_entry_saver(*temp)
 		Logger.log_logger('XLSX_Import', True)
 	except:
 		Logger.log_logger('XLSX_Import', False)
