@@ -4,7 +4,6 @@
 '''
 import os
 import Logger
-
 os.chdir(os.path.dirname(__file__))
 
 def new_entry_saver(first_name, last_name, tel_number, footnote):
