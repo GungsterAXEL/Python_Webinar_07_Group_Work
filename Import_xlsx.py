@@ -18,3 +18,4 @@ def xlsx_import():
 		Logger.log_logger('XLSX_Import', True)
 	except:
 		Logger.log_logger('XLSX_Import', False)
+

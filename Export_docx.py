@@ -10,7 +10,7 @@ def docx_export():
     try:
         with open ('PhoneBook.txt', 'r', encoding = 'utf-8') as file:
             file = file.read()
-        print(file)
+        # print(file)
         with open (f'{name}.docx', 'a', encoding = 'utf-8') as send:
             send.writelines(file)
         Logger.log_logger('DOCX_Export', True)

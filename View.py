@@ -10,3 +10,4 @@ def phonebook_view():
 			Logger.log_logger('phonebook_view', True)
 	except:
 		Logger.log_logger('phonebook_view', False)
+

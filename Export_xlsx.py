@@ -19,3 +19,4 @@ def xlsx_export():
         Logger.log_logger('XLSX_Export', True)
     except:
         Logger.log_logger('XLSX_Export', False)
+

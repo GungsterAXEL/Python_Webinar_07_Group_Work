@@ -9,5 +9,3 @@ def menu_choice():
     print(' 6. Удаление контакта')
     print(' 7. Выход')
 
-
-menu_choice()
